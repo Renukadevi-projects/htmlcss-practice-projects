@@ -1,0 +1,51 @@
+.container
+{
+background-color: lightgoldenrodyellow;
+min-height:100px;
+border: 10px solid black;
+}
+.content
+{
+max-width : 900px;
+margin: 0 auto;
+}
+.top_section
+{
+margin-top:100 px;
+display:flex;
+justify-content:space-between;
+align-items:flex-end;
+}
+.top_section h1{
+font-size: 50px;
+font-weight:bold;
+color: black;
+text-transform: uppercase;
+}
+.top_section h4{
+font-size:30px;
+text-align: end;
+}
+.image_container{
+border-radius: 50%;
+overflow:hidden;
+}
+.image_container, img{
+width: 300px;
+height:320px ;
+}
+
+
+.objectives ul{
+    margin-left: 50px;
+}
+.objectives li{
+    margin-bottom: 15px;
+}
+.footer ul {
+    list-style: none;
+}
+.footer{
+    margin: 50px 0;
+    text-align: end;
+} 
